@@ -1,0 +1,33 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="com.example.divindivakaran.myaichat.ChatsFragment">
+
+            <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:id="@+id/add_new_gruop_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorAccent"
+        android:text="ADD NEW GROUP" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/groups_list"
+            android:layout_width="match_parent"
+            android:layout_height="527dp" />
+
+
+    </FrameLayout>
+
+
+</RelativeLayout>
+
+

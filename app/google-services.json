@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "491106488448",
+    "firebase_url": "https://myaichat-a3727.firebaseio.com",
+    "project_id": "myaichat-a3727",
+    "storage_bucket": "myaichat-a3727.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:491106488448:android:987113ef6e0b5dd6",
+        "android_client_info": {
+          "package_name": "com.example.divindivakaran.myaichat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "491106488448-9d1h755qmqmpe3hfgan6so4a726k276t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.divindivakaran.myaichat",
+            "certificate_hash": "c4cc709751781ff0e2fb15de742de15bf74a2a58"
+          }
+        },
+        {
+          "client_id": "491106488448-61s0tfsebmftrrkf8ukp0igbt55quo77.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDuc17DC_bVOx5HP4UJp8YOShw3HIpe-8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "491106488448-61s0tfsebmftrrkf8ukp0igbt55quo77.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

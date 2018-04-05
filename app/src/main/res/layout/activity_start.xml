@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:backgroundTint="@color/colorPrimary"
+    tools:context="com.example.divindivakaran.myaichat.StartActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME "
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/start_reg_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:backgroundTint="@android:color/background_light"
+        android:text="@string/need_a_new_account"
+        android:layout_below="@+id/start_login_btn"
+        android:layout_alignEnd="@+id/start_login_btn"
+        android:layout_alignStart="@+id/start_login_btn" />
+
+    <Button
+        android:id="@+id/start_login_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:backgroundTint="@color/colorAccent"
+        android:text="ALREADY HAVE  ACCOUNT"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/bot"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp" />
+</RelativeLayout>

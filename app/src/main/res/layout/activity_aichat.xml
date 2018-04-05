@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_google_signin_btn_text_dark_disabled">
+
+    <include
+        android:id="@+id/chatboat_appBar"
+        layout="@layout/app_bar_layout" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/background_light"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+
+        <ImageButton
+            android:id="@+id/listen_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            app:srcCompat="@android:drawable/ic_btn_speak_now" />
+
+        <EditText
+            android:id="@+id/input_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="9dp"
+            android:layout_weight="8"
+            android:ems="10"
+            android:hint="Input Querry"
+            android:inputType="textPersonName"
+            android:paddingEnd="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp" />
+
+        <ImageButton
+            android:id="@+id/send_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_send_black_24dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/result_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@android:color/background_light"
+        android:paddingBottom="20dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:paddingTop="20dp"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/input_querry_view"
+        android:layout_alignStart="@+id/input_querry_view"
+        android:layout_marginBottom="14dp"
+        android:text="Me" />
+
+    <TextView
+        android:id="@+id/input_querry_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/result_view"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@android:color/background_light"
+        android:paddingBottom="20dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:paddingTop="20dp"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/input_querry_view"
+        android:layout_alignTop="@+id/input_querry_view"
+        android:layout_marginTop="80dp"
+        android:text="Google" />
+
+
+</RelativeLayout>

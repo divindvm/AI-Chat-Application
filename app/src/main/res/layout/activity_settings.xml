@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.divindivakaran.myaichat.SettingsActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/settings_image"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/default_avatar"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/settings_display_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Display Name"
+        android:textSize="30sp"
+        android:layout_below="@+id/settings_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp" />
+
+    <TextView
+        android:id="@+id/settings_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/settings_display_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Hi there, I'm using AI Chat"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/settings_image_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/settings_status"
+        android:layout_marginTop="56dp"
+        android:text="CHANGE IMAGE"
+        android:layout_alignEnd="@+id/settings_image"
+        android:layout_alignStart="@+id/settings_image" />
+
+    <Button
+        android:id="@+id/settings_status_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/settings_image_btn"
+        android:layout_alignStart="@+id/settings_image_btn"
+        android:layout_below="@+id/settings_image_btn"
+        android:layout_marginTop="11dp"
+        android:backgroundTint="@color/colorAccent"
+        android:text="CHANGE STATUS" />
+
+</RelativeLayout>
